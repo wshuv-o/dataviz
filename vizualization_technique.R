@@ -1,11 +1,7 @@
 library("dplyr")
 
 hepatitis_data<-read.csv("E:/Desktop/OneDrive/Documents/IDS/ds/Hepatitis data/hepatitis/hepatitis_data.csv")
-
-# Extract numerical variables from the dataset
 numerical_vars <- hepatitis_data[, sapply(hepatitis_data, is.numeric)]
-
-# Create a matrix of scatterplots
 pairs(numerical_vars)
 
 # Hexagonal binning plot between Age and ALB
