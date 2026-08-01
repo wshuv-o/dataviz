@@ -1,6 +1,6 @@
 library("dplyr")
 
-hepatitis_data<-read.csv("E:/Desktop/OneDrive/Documents/IDS/ds/Hepatitis data/hepatitis/hepatitis_data.csv")
+hepatitis_data<-read.csv("hcv_data.csv")
 numerical_vars <- hepatitis_data[, sapply(hepatitis_data, is.numeric)]
 pairs(numerical_vars)
 

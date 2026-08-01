@@ -1,6 +1,6 @@
 library("dplyr")
 
-originalDataFrame<-read.csv("E:/Desktop/OneDrive/Documents/IDS/ds/Hepatitis data/hepatitis/hepatitis_data.csv")
+originalDataFrame<-read.csv("hepatitis_data.csv")
 
 originalDataFrame
 print(str(originalDataFrame))
@@ -99,4 +99,3 @@ pearson_result
 
 spearman_result=cor(originalDataFrame,method="spearman")
 spearman_result
-

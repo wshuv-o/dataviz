@@ -28,8 +28,7 @@ This project demonstrates 20+ visualization techniques in R, from exploratory pl
 | File | Description |
 |---|---|
 | [`visualization-techniques.R`](visualization-techniques.R) | The paper's visualization suite on the HCV dataset |
-| [`advviz.R`](advviz.R) | Preprocessing and imputation on the UCI Hepatitis dataset |
-| [`hepa.R`](hepa.R) | Companion exploratory-analysis script |
+| [`hepatitis-preprocessing.R`](hepatitis-preprocessing.R) | Preprocessing and imputation on the UCI Hepatitis dataset |
 | [`figures/`](figures/) | Figures from the paper |
 
 ## Running
@@ -39,7 +38,7 @@ install.packages(c("dplyr", "ggplot2", "hexbin", "corrplot", "plotly",
                    "GGally", "ggalluvial", "ggridges"))
 ```
 
-Download the [HCV data](https://archive.ics.uci.edu/dataset/571/hcv+data), update the `read.csv()` path at the top of each script, and run.
+Download the [HCV data](https://archive.ics.uci.edu/dataset/571/hcv+data) and save it as `hcv_data.csv` beside the scripts, then run `visualization-techniques.R`. For `hepatitis-preprocessing.R`, save the [Hepatitis data](https://archive.ics.uci.edu/dataset/46/hepatitis) as `hepatitis_data.csv`.
 
 ## Citation
 
