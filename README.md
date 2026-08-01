@@ -27,7 +27,7 @@ This project demonstrates 20+ visualization techniques in R, from exploratory pl
 
 | File | Description |
 |---|---|
-| [`vizualization_technique.R`](vizualization_technique.R) | The paper's visualization suite on the HCV dataset |
+| [`visualization-techniques.R`](visualization-techniques.R) | The paper's visualization suite on the HCV dataset |
 | [`advviz.R`](advviz.R) | Preprocessing and imputation on the UCI Hepatitis dataset |
 | [`hepa.R`](hepa.R) | Companion exploratory-analysis script |
 | [`figures/`](figures/) | Figures from the paper |
